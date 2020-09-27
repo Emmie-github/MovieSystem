@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2016", //编译目标
+    "module": "commonjs", //模块
+    "outDir": "./dist", //结果输出目录
+    //class-validator验证库
+    "experimentalDecorators": true, //开启实验性质的装饰功能
+    "emitDecoratorMetadata": true, //TS 在编译结果中,会将约束的类型,作为元数据加入到相应位置
+    "strictNullChecks": true, //null、undefined只能赋值给自己
+    "removeComments": true, //移除注释
+    "noEmitOnError": true, //代码出错不要出现在编译结果中
+    "esModuleInterop": true, //ES模块导出
+    "lib": ["ESNext"] //环境
+  },
+  "include": ["./src"] //TS文件所在目录
+}
